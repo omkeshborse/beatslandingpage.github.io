@@ -1,0 +1,390 @@
+*{  
+   
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color:#0F0F10;
+    color: aliceblue;
+}
+
+
+/* <!-- nav section of landing page --> */
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img[alt=logo]{
+    height: 35px;
+}
+
+nav div ul {
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    align-items: center;
+    margin: 20px;
+    gap: 40px;
+    font-weight: 600 ;
+    width: 100%;
+    font-size: 16px;
+}
+
+nav div ul button{
+    /* width: 120px;
+    height: 40px; */
+    background: #1e1e21;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    color: aliceblue;
+    box-shadow: #ffffff;
+    
+}
+/* <!-- design main section of landing page --> */
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    
+}
+.mainImg {
+    width: 230px;
+    position: relative;
+    top: -150px;
+    left: -100px
+   /*  margin: 5rem; */
+  }
+  
+main div .onEar {
+    height: 4.5rem;
+    margin-top: 3.5em;
+    margin-left: 1em;
+   
+}
+
+main div h1{
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+main div h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+main div  p{
+    
+        
+    font-size: 12px;
+    font-weight: 300;
+    color: #bdc0c2;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.shopping-bag-section{
+    background-color: #1e1e21;;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 3em;
+    gap : 15px;
+    border-radius: 15px;
+    width: 250px;
+}
+.shopping-bag-section  img{
+    height: 14px;
+    align-self: center;
+}
+.shopping-bag-section p {
+    align-self: center;
+    padding-top: 24px;
+    font-size: 16px;
+}
+.shopping-bag-section span{
+
+    align-self: center;
+}
+
+/* social-media-section  */
+
+.social-media-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+.social-media-section img{
+    
+    /* padding: 30px; */
+    height: 25px;
+    margin: 20px; 
+}
+
+/*specification section  */
+.specification{
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.specification-item{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 150px;
+    position: relative;
+    
+}
+
+.specification div{
+    
+    margin: 30px;
+   
+}
+.left-margin{
+   position: relative;
+   left:40px;
+}
+section div p:first-child{
+    font-size: 16px;
+}
+section div p:last-child{
+    font-size: 10px;
+}
+.specification-item-list img{
+    height: 30px;
+}
+
+/* <!-- case section --> */
+
+.case{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.case-img{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 60px;
+}
+.right-case-section{
+    align-self: center;
+    color: #bdc0c2;
+}
+
+.right-case-section div{
+    display: flex;
+    background-color: #1E1E21;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap: 20px;
+    height: 60px;
+    border-radius: 8px;
+    font-size:18px;
+}
+
+/* offer-section  */
+.offer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-section-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181a1b;
+    gap:80px;
+    width: 65%;
+    padding: 30px ; 
+    border-radius: 15px;
+
+}
+
+.left-offer-section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #1e1e21;
+    height: 40px;
+    width:120px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+/* product */
+
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.product-logo{
+    display: flex;
+    scale: 0.7;
+    margin: 50px;
+}
+
+.product-items{
+    display: flex;
+    flex-wrap: wrap;
+   /*  margin-left: 150px;
+    gap:100px; 
+    padding:30px; */
+   
+}
+
+.product-card{
+    display: flex;
+    justify-content:center ;
+    position: relative;
+    height: 130px;
+    width: 130px;
+    background-color:  #181a1b;
+
+    margin-left: 200px;
+    margin-bottom: 100px;
+    gap:100px; 
+    padding:30px;
+}
+
+
+.product-img{
+    position: absolute;
+    height: 100px;
+    width: 70px;
+    z-index: 100;
+    top: -40px;
+}
+
+.product-img,
+.product-card p,
+.product-card span,
+.product-card img,
+.product-card div {
+  background-color: transparent;
+}
+
+.product-info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px 5px;
+}
+.product-info p{
+    font-size: 12px;
+}
+img[alt="shoppingBag"]{
+    height: 13px;
+    width: 13px;   
+}
+
+/* footer design  */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+   /*  align-items: center; */
+    
+}
+
+
+.footer ul li {
+    list-style: none;
+    color:  #bdc0c2;
+}
+.footer ul li a{
+    text-decoration: none;
+    color:  #bdc0c2;
+    font-size: 15px;
+
+}
+.heading{
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+.heading a {
+    color: #ffffff;
+}
+.footer-sebscription{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #181a1b; */
+}
+
+.footer-email{
+    display: flex;
+    gap: 20px;
+    /* color:  #bdc0c2; */
+}
+
+.subscription-button{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-logo{
+    height: 30px;
+    margin-top: 30px;
+}
+
+.arrow-up{
+    height: 40px;
+    margin-top: 40px;
+}
+
+ul li:first-child a {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+input{
+    background-color: #181A1B;
+    color: white;
+}   
+
+.footer-email{
+    
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background: #181A1B;
+    margin: 30px;
+}
